@@ -111,6 +111,5 @@ func UTF7_Decode(istr string) string {
 		}
 		istr = strings.Replace(istr, "+"+findStr+"-", decoded, -1)
 	}
-	fmt.Println(istr)
 	return istr
 }
